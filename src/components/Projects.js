@@ -8,22 +8,26 @@ export default function Projects() {
             {
               file: "2025-04-18 20-24-54.mkv",
               title: "Personal Budget",
-              description: "A personal budget management app that allows users to track their expenses and incomes. Built with JavaScript, Express, and PostgreSQL for efficient data management and secure storage."
+              description: "A personal budget management app that allows users to track their expenses and incomes. Built with JavaScript, Express, and PostgreSQL for efficient data management and secure storage.",
+              repo: "https://github.com/olekskz/Personal-budget"
             },
             {
               file: "2025-04-18 21-03-29.mkv",
               title: "Photo Caption Contest",
-              description: "An interactive photo caption contest platform where users can log in through third-party services like Google, Facebook, or GitHub. Built with JavaScript, Sequelize for database management, and OAuth for authentication."
+              description: "An interactive photo caption contest platform where users can log in through third-party services like Google, Facebook, or GitHub. Built with JavaScript, Sequelize for database management, and OAuth for authentication.",
+              repo: "https://github.com/olekskz/photo-caption-contest"
             },
             {
               file: "2025-04-18 21-19-23.mkv",
               title: "E-Commerce Store",
-              description: "An online store where users can browse, add items to their cart, and proceed with checkout. Built with React and Redux, Sequelize for database interaction, and Express for the backend."
+              description: "An online store where users can browse, add items to their cart, and proceed with checkout. Built with React, Sequelize for database interaction, and Express for the backend.",
+              repo: "https://github.com/olekskz/E-shop"
             },
             {
               file: "2025-04-18 21-27-22.mkv",
               title: "Messenger App",
-              description: "A real-time chat application built with Socket.IO, React, Redux, TypeScript, Express, and Sequelize, allowing users to send instant messages and create chat rooms."
+              description: "A real-time chat application built with Socket.IO, React, TypeScript, Express, and Sequelize, allowing users to send instant messages and create chat rooms.",
+              repo: "https://github.com/olekskz/messenger"
             }
           ].map((project, i) => (
             <div key={i} className="bg-white dark:bg-gray-700 rounded shadow p-4 transform hover:scale-105 transition duration-300 ease-in-out">
@@ -36,6 +40,14 @@ export default function Projects() {
                 Your browser does not support the video tag.
               </video>
               <p>{project.description}</p>
+              <a
+                href={project.repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline mt-2 block"
+              >
+                View the repository on GitHub
+              </a>
             </div>
           ))}
         </div>
