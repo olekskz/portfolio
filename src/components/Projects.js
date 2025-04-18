@@ -6,25 +6,25 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 gap-6">
           {[
             {
-              file: "2025-04-18 20-24-54.mkv",
+              file: "2025-04-18 20-24-54.mp4",
               title: "Personal Budget",
               description: "A personal budget management app that allows users to track their expenses and incomes. Built with JavaScript, Express, and PostgreSQL for efficient data management and secure storage.",
               repo: "https://github.com/olekskz/Personal-budget"
             },
             {
-              file: "2025-04-18 21-03-29.mkv",
+              file: "2025-04-18 21-03-29.mp4",
               title: "Photo Caption Contest",
               description: "An interactive photo caption contest platform where users can log in through third-party services like Google, Facebook, or GitHub. Built with JavaScript, Sequelize for database management, and OAuth for authentication.",
               repo: "https://github.com/olekskz/photo-caption-contest"
             },
             {
-              file: "2025-04-18 21-19-23.mkv",
+              file: "2025-04-18 21-19-23.mp4",
               title: "E-Commerce Store",
               description: "An online store where users can browse, add items to their cart, and proceed with checkout. Built with React, Sequelize for database interaction, and Express for the backend.",
               repo: "https://github.com/olekskz/E-shop"
             },
             {
-              file: "2025-04-18 21-27-22.mkv",
+              file: "2025-04-18 21-27-22.mp4",
               title: "Messenger App",
               description: "A real-time chat application built with Socket.IO, React, TypeScript, Express, and Sequelize, allowing users to send instant messages and create chat rooms.",
               repo: "https://github.com/olekskz/messenger"
